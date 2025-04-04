@@ -1,6 +1,6 @@
-//Task 1: Create a new Component
+//Task 1: Create a new Component:
 
-function Greeting(){
+function Greeting(){  //function to print the following message to the browser
     return (
     <div>
         <h2>Hello from the Greeing Component!</h2>
@@ -9,4 +9,4 @@ function Greeting(){
     );
 }
 
-export default Greeting;
+export default Greeting; //will allow the function to be called out of this file

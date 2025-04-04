@@ -29,8 +29,10 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Greeting /> 
     </>
   )
 }
 
+//adding the greeting function to the return will call the contents of the greeting function and apply them to what is being returned by the app file
 export default App
